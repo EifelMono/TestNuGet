@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+	<metadata>
+		<id>
+			ClassLibrary
+		</id>
+		<version>
+			1.0.0.0-beta
+		</version>
+		<title>
+			ClassLibrary ]
+		</title>
+		<authors>
+			andreas.klapperich
+		</authors>
+		<owners>
+			Bd 326 GmbH
+		</owners>
+		<requireLicenseAcceptance>
+			false
+		</requireLicenseAcceptance>
+		<description>
+			Test class library
+		</description>
+		<releaseNotes />
+		<copyright>
+			Bd 326 GmbH
+		</copyright>
+		<language />
+		<tags>
+			Test, NuGet, and more
+		</tags>
+		<iconUrl>
+			https://pbs.twimg.com/profile_images/687245701542088704/PsjRrqP4.png
+		</iconUrl>
+		<dependencies>
+			<dependency id="Baseclass.Contrib.Nuget.Output" version="2.3.0-vs20172" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="..\..\ClassLibrary40\bin\Debug\ClassLibrary40.dll" target="lib\net40\ClassLibrary40.dll" />
+		<file src="..\..\ClassLibrary40\bin\Debug\ClassLibrary40.pdb" target="lib\net40\ClassLibrary40.pdb" />
+		<file src="..\..\ClassLibrary452\bin\Debug\ClassLibrary452.dll" target="lib\net452\ClassLibrary452.dll" />
+		<file src="..\..\ClassLibrary452\bin\Debug\ClassLibrary452.pdb" target="lib\net452\ClassLibrary452.pdb" />
+		<file src="Text.txt" target="output\Text.txt" />
+		<file src="Text.txt" target="output\Level1\Text.txt" />
+		<file src="Text.txt" target="output\Level1\Level2\Text.txt" />
+	</files>
+</package>

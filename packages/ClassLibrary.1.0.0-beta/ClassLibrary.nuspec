@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>ClassLibrary</id>
+    <version>1.0.0-beta</version>
+    <title>ClassLibrary ]</title>
+    <authors>andreas.klapperich</authors>
+    <owners>Bd 326 GmbH</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://pbs.twimg.com/profile_images/687245701542088704/PsjRrqP4.png</iconUrl>
+    <description>Test class library</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Bd 326 GmbH</copyright>
+    <language></language>
+    <tags>Test, NuGet, and more</tags>
+    <dependencies>
+      <dependency id="Baseclass.Contrib.Nuget.Output" version="2.3.0-vs20172" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary452", "ClassLibrary452\ClassLibrary452.csproj", "{54408A9E-F86D-4382-B4D6-B95BA9B3EDA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary40", "ClassLibrary40\ClassLibrary40.csproj", "{9D0B7869-C61B-476C-A3B8-FB944179C4CD}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ClassLibraryShared", "ClassLibraryShared\ClassLibraryShared.shproj", "{AB7FCAF2-49E1-4F66-8952-708C02A0A76D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp40", "ConsoleApp40\ConsoleApp40.csproj", "{22FDC8C5-D2D1-4ED8-A490-30547DC6DDB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp452", "ConsoleApp452\ConsoleApp452.csproj", "{8B352C67-1201-4F14-965C-7DC6B07A6786}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ConsoleAppShared", "ConsoleAppShared\ConsoleAppShared.shproj", "{E706E65F-FFEA-40A8-9AA7-ABD9668C596D}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ConsoleAppShared\ConsoleAppShared.projitems*{22fdc8c5-d2d1-4ed8-a490-30547dc6ddb9}*SharedItemsImports = 4
+		ClassLibraryShared\ClassLibraryShared.projitems*{54408a9e-f86d-4382-b4d6-b95ba9b3eda3}*SharedItemsImports = 4
+		ConsoleAppShared\ConsoleAppShared.projitems*{8b352c67-1201-4f14-965c-7dc6b07a6786}*SharedItemsImports = 4
+		ClassLibraryShared\ClassLibraryShared.projitems*{9d0b7869-c61b-476c-a3b8-fb944179c4cd}*SharedItemsImports = 4
+		ClassLibraryShared\ClassLibraryShared.projitems*{ab7fcaf2-49e1-4f66-8952-708c02a0a76d}*SharedItemsImports = 13
+		ConsoleAppShared\ConsoleAppShared.projitems*{e706e65f-ffea-40a8-9aa7-abd9668c596d}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54408A9E-F86D-4382-B4D6-B95BA9B3EDA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54408A9E-F86D-4382-B4D6-B95BA9B3EDA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54408A9E-F86D-4382-B4D6-B95BA9B3EDA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54408A9E-F86D-4382-B4D6-B95BA9B3EDA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D0B7869-C61B-476C-A3B8-FB944179C4CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0B7869-C61B-476C-A3B8-FB944179C4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0B7869-C61B-476C-A3B8-FB944179C4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0B7869-C61B-476C-A3B8-FB944179C4CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22FDC8C5-D2D1-4ED8-A490-30547DC6DDB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FDC8C5-D2D1-4ED8-A490-30547DC6DDB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FDC8C5-D2D1-4ED8-A490-30547DC6DDB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FDC8C5-D2D1-4ED8-A490-30547DC6DDB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B352C67-1201-4F14-965C-7DC6B07A6786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B352C67-1201-4F14-965C-7DC6B07A6786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B352C67-1201-4F14-965C-7DC6B07A6786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B352C67-1201-4F14-965C-7DC6B07A6786}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
